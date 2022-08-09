@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	touch-action: none;
+}
+
+.setting {
+	position: absolute;
+	z-index: 1;
+	top: 10px;
+	left: 10x;
+	display: flex;
+}
+
+.setting .scene-item {
+	margin: 10px;
+	padding: 5px 10px;
+	border: 1px solid;
+	background-color: white;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.setting .scene-item.active {
+	border-color: red;
+	color: red;
+}
